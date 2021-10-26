@@ -214,7 +214,9 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 
-  transition: background-color var(--duration) var(--timing-function);
+  transition: background-color var(--duration) var(--timing-function),
+    color var(--duration) var(--timing-function),
+    box-shadow var(--duration) var(--timing-function);
 }
 
 .hero-btn:focus,
@@ -426,7 +428,7 @@ body {
   border-radius: 4px;
   color: var(--border-client);
 
-  transition: background-color var(--duration) var(--timing-function),
+  transition: border var(--duration) var(--timing-function),
     color var(--duration) var(--timing-function);
 }
 
@@ -470,7 +472,7 @@ body {
   color: var(--color-footer-link);
   cursor: pointer;
 
-  transition: background-color var(--duration) var(--timing-function);
+  transition: color var(--duration) var(--timing-function);
 }
 
 .address-link:hover,
@@ -531,7 +533,8 @@ body {
   background: var(--bg-color-section);
   cursor: pointer;
   transition: background-color var(--duration) var(--timing-function),
-    background-color var(--duration) var(--timing-function);
+    color var(--duration) var(--timing-function),
+    box-shadow var(--duration) var(--timing-function);
 }
 
 .portfolio-btn:hover,
